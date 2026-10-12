@@ -30,4 +30,5 @@ Never write passwords, tokens, API keys, recovery codes or private keys in an en
 
 - Add one entry per commit. Do not modify other entries unless explicitly asked.
 - Commit message: `diary: {device} - {short title}`
+- Push directly to `main`. Do not create another branch or a pull request.
 - Run `git pull` again if the push is rejected, then push.

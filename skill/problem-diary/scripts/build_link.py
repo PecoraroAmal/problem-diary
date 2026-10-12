@@ -10,7 +10,7 @@ import re
 import sys
 from urllib.parse import quote
 
-PROMPT = """Follow the instructions in CLAUDE.md. Run git pull, then create the file `{path}` with exactly the content below. If the device is missing from diario/DEVICES.md, add it. Commit with message "diary: {device} - {title}" and push.
+PROMPT = """Follow the instructions in CLAUDE.md. Run git pull, then create the file `{path}` with exactly the content below. If the device is missing from diario/DEVICES.md, add it. Commit with message "diary: {device} - {title}" and push directly to the main branch (do not create another branch or a pull request).
 
 ---
 {entry}"""

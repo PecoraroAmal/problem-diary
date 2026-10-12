@@ -40,7 +40,7 @@ Read `assets/entry-template.md` and fill it in. The reasons behind each rule mat
 
 ### 3. Pick the delivery path
 
-1. **Inside Claude Code** (git is available in the repo): follow the repo's `CLAUDE.md` and write the file yourself: `git pull`, create the file, commit, push. No length limit.
+1. **Inside Claude Code** (git is available in the repo): follow the repo's `CLAUDE.md` and write the file yourself: `git pull`, create the file, commit, push directly to `main` (no other branch, no pull request). No length limit.
 2. **From chat, short entry:** Path A, the prefilled link.
 3. **From chat, long entry:** Path B, a file to upload. Choose this as well whenever Path A reports the link is too long.
 
